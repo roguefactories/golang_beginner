@@ -7,6 +7,7 @@ In this tutorial, you will learn basic go programming.
 Refer to [Download and install Go](https://golang.org/doc/install)
 
 ### Mode init
+The go.mod file in the root directory contains module infromation for managing packages dependencies in your project. Run the ***go mod init command*** to create a go.mod file.
 ```bash
 go mode init github.com/roguefactories/golang_beginner
 ```
