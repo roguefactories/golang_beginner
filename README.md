@@ -16,3 +16,13 @@ go mode init github.com/roguefactories/golang_beginner
 ```bash
 go run hello.go
 ```
+
+##[2. The init function](https://github.com/roguefactories/golang_beginner/tree/main/02_init)
+
+Each source file can define its own ***init*** function to initialize its state. The ***init*** funcitons are executed one after the other in the order of their imports.
+
+```go
+func init() {
+	fmt.Println("This is init in main.")
+}
+```
