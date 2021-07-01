@@ -1,7 +1,11 @@
-package main
+package main // Package Declaration
 
-import "fmt"
+import "fmt" // Import Packages
 
-func main() {
+func main() { // Functions
+	/*
+		It prints "Hello, World!" on the screen.
+	*/
+
 	fmt.Println("Hello, World!")
 }
