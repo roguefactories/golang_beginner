@@ -1,4 +1,4 @@
-# Go Tutorial for Beginner
+# Go Tutorial for Beginners
 In this tutorial, you will learn basic go programming.
 
 ## [1. Geting Start](https://github.com/roguefactories/golang_beginner/tree/main/01_Getting_Start)
@@ -43,3 +43,17 @@ This is pkg2.
 This is pkg3.
 ```
 
+## [2. Scope](https://github.com/roguefactories/golang_beginner/tree/main/03_Scope)
+
+### Local Variables
+Local variables are declared inside a function or block and they can be used within the function or block.
+
+### Global Variables
+Global variables are defined outside of a function and they can be accessed by any functions. Howevver, if there is a local variable with the same name as a global variable, the local variable is accessed by its name.
+
+```bash
+1 + 2 = 3
+x = 10 and y = 20 in main()
+x = 1 and y = 20 in sum()
+1 + 20 = 21
+```
