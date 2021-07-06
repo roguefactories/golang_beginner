@@ -1,7 +1,7 @@
 # Go Tutorial for Beginners
 In this tutorial, you will learn basic go programming.
 
-## [1. Geting Start](https://github.com/roguefactories/golang_beginner/tree/main/01_Getting_Start)
+## [1. Geting Start](./Tutorial_01)
 
 ### Install
 Refer to [Download and install Go](https://golang.org/doc/install)
@@ -17,7 +17,7 @@ go mode init github.com/roguefactories/golang_beginner
 go run hello.go
 ```
 
-## [2. The init function](https://github.com/roguefactories/golang_beginner/tree/main/02_The_Init_Function)
+## [2. The init function](./Tutorial_02)
 
 Each source file can define its own ***init*** function to initialize its state. The ***init*** funcitons are executed only one after the other in the order of their imports.
 
@@ -43,7 +43,7 @@ This is pkg2.
 This is pkg3.
 ```
 
-## [2. Scope](https://github.com/roguefactories/golang_beginner/tree/main/03_Scope)
+## [3. Scope](./Tutorial_03)
 
 ### Local Variables
 Local variables are declared inside a function or block and they can be used within the function or block.
