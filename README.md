@@ -113,10 +113,10 @@ U+0017
 |fmt|Description|
 |:---:|:---|
 |%b|Decimalless scientific notation with exponent a power of two, 	in the manner of strconv.FormatFloat with the 'b' format, 	e.g. -123456p-78|
-|%e|scientific notation, e.g. -1.234456e+78|
-|%E|scientific notation, e.g. -1.234456E+78|
-|%f|decimal point but no exponent, e.g. 123.456|
-|%F|synonym for %f|
+|%e|Scientific notation, e.g. -1.234456e+78|
+|%E|Scientific notation, e.g. -1.234456E+78|
+|%f|Decimal point but no exponent, e.g. 123.456|
+|%F|Synonym for %f|
 |%g|%e for large exponents, %f otherwise. Precision is discussed below.|
 |%G|%E for large exponents, %F otherwise|
 
@@ -124,17 +124,17 @@ U+0017
 8687499202136843p-46
 1.234568e+02
 1.234568E+02
-123.456789
-123.456789
-123.456789
-123.456789
+1234567.890000
+123456.789000
+1.23456789e+06
+123456.789
 ```
 
 ### String
 |fmt|Description|
 |:---:|:---|
-|%s|the uninterpreted bytes of the string or slice|
-|%q|a double-quoted string safely escaped with Go syntax|
+|%s|The uninterpreted bytes of the string or slice|
+|%q|A double-quoted string safely escaped with Go syntax|
 
 ```bash
 RogueFactories
