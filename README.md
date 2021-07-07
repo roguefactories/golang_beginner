@@ -131,11 +131,12 @@ U+0017
 ```
 
 ### String
+
 |fmt|Description|
 |:---:|:---|
 |%s|The uninterpreted bytes of the string or slice|
 |%q|A double-quoted string safely escaped with Go syntax|
-
+   
 ```bash
 RogueFactories
 "RogueFactories"
