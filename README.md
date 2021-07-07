@@ -61,6 +61,7 @@ x = 1 and y = 20 in sum()
 ## [4. Format](./Tutorial_04)
 
 ### Disply an object
+
 |fmt|Description|
 |:---:|:---|
 |%v|Default format for an object|
@@ -76,6 +77,7 @@ main.Dog
 ```
 
 ### Boolean
+
 |fmt|Description|
 |:---:|:---|
 |%t|Show the word true or false|
@@ -85,6 +87,7 @@ true
 ```
 
 ### Integer
+
 |fmt|Description|
 |:---:|:---|
 |%b|Show binary number|
