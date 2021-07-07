@@ -60,5 +60,83 @@ x = 1 and y = 20 in sum()
 
 ## [4. Format](./Tutorial_04)
 
+### Disply an object
+|fmt|Description|
+|:---:|:---|
+|%v|Default format for an object|
+|%+v|Show field names|
+|%#v|Show a Go-syntax representation of the value|
+|%T|Show a Go-syntax representation of the type of the value|
 
+```bash
+{RogueFactories 23 123.456789 true}
+{Name:RogueFactories Age:23 Height:123.456789 Trainable:true}
+main.Dog{Name:"RogueFactories", Age:23, Height:123.456789, Trainable:true}
+main.Dog
+```
 
+### Boolean
+|fmt|Description|
+|:---:|:---|
+|%t|Show the word true or false|
+
+```bash
+true
+```
+
+### Integer
+|fmt|Description|
+|:---:|:---|
+|%b|Show binary number|
+|%c|Show the character represented by the corresponding Unicode code point|
+|%d|Show decimal number|
+|%o|Show octal number|
+|%O|Show octal number with 0o prefix|
+|%q|Show a single-quoted character literal safely escaped with Go syntax.|
+|%x|Show Hexadecimal in lower-case letters for a-f|
+|%X|Show Hexadecimal in upper-case letters for A-F|
+|%U|Show Unicode format: U+1234; same as "U+%04X"|
+
+```bash
+10111
+
+23
+27
+0o27
+'\x17'
+17
+17
+U+0017
+```
+
+### Floating-point
+|fmt|Description|
+|:---:|:---|
+|%b|Decimalless scientific notation with exponent a power of two, 	in the manner of strconv.FormatFloat with the 'b' format, 	e.g. -123456p-78|
+|%e|scientific notation, e.g. -1.234456e+78|
+|%E|scientific notation, e.g. -1.234456E+78|
+|%f|decimal point but no exponent, e.g. 123.456|
+|%F|synonym for %f|
+|%g|%e for large exponents, %f otherwise. Precision is discussed below.|
+|%G|%E for large exponents, %F otherwise|
+
+```bash
+8687499202136843p-46
+1.234568e+02
+1.234568E+02
+123.456789
+123.456789
+123.456789
+123.456789
+```
+
+### String
+|fmt|Description|
+|:---:|:---|
+|%s|the uninterpreted bytes of the string or slice|
+|%q|a double-quoted string safely escaped with Go syntax|
+
+```bash
+RogueFactories
+"RogueFactories"
+```
